@@ -1,0 +1,89 @@
+  body {
+      background-color: black;
+  }
+
+  header {
+      background-color: black;
+      margin: 75px;
+  }
+  
+  
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+  }
+  
+  li {
+      float: left;
+      border-right:1px solid #bbb;
+  }
+  
+  
+  
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 20px 22px;
+      text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+      background-color: #111;
+  }
+  
+  .name {
+      background-color: grey;
+       
+  }
+
+  .photographer {
+      background-color: lightgrey;
+      color: black;
+
+  }
+
+  #photo_1 {
+      margin: 200px;
+      float: right;
+   
+
+  }
+
+ h2 {
+     color: white;
+     
+ }
+
+ .about {
+     color: white;
+     background-color: #333;
+     padding: 50px;
+     padding-bottom: 300px;
+     float: left;
+     margin: 25px;
+
+ }     
+ 
+ .about_2 {
+    color: white;
+    background-color: #333;
+    padding: 50px;
+    padding-right:500px;
+    padding-bottom: 300px;
+    float: right;
+    margin: 25px;
+
+ }
+
+ footer {
+     color: white;
+     background-color: #333;
+     clear: both;
+     margin-top: 25px;
+     padding-bottom: 50px;
+ }
+  
